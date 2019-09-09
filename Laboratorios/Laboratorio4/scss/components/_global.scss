@@ -1,0 +1,29 @@
+$background: white;
+$background_secundario: whitesmoke;
+$color_primario: #673ab7;
+$color_secundario: #3f51b5;
+$color_terciario: #d81b60;
+$color-dark: black;
+
+
+@mixin set-dimensions($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+body {
+    box-sizing: border-box;
+    
+    @include set-dimensions(auto,100vh );
+    overflow: hidden;
+    background-image: url("https://cdn.wallpapersafari.com/83/31/DBzikL.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 1em 5%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
