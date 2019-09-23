@@ -1,6 +1,8 @@
 var num = 14;
 var bin = 0;
 var actual = "";
+
+
 function decimal(nume)
 {   
     do{
@@ -12,8 +14,14 @@ function decimal(nume)
 
     var fin;
     fin = actual + num;
-   console.log();
+   
+    
+const invertirCadena = cadena => cadena.split("").reverse().join("");
+ 
+console.log(invertirCadena(fin));
    
 }
+
+
 
 decimal(num);
