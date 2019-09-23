@@ -1,12 +1,16 @@
-let num = 5;
-let actual = 1;
-let anterior = 0;
-let con = 0;
-let temp = 0;
-function fibonacci(num)
-{
-    while(con < num)
+var num = 10;
+var actual = 1;
+var anterior = 0;
+var con = 1;
+var temp = 0;
+
+function fibonacci(nume)
+{    
+    console.log(anterior)
+    console.log(actual)
+    while(con < nume)
     {
+       
         temp = actual;
         actual = actual + anterior;
         anterior = temp;
